@@ -13,11 +13,14 @@ try:
 except:
 	print "data not loaded"
 
-cpt=1
+ach,stat=1,1
 for key in dico.keys():
-	strkey = str(key)
 	if re.match(r'achievement', key):
-		print key,dico[key]
-		cpt+=1
+#		print key,dico[key]
+		ach+=1
+	if re.match(r'stat', key):
+#		print key,dico[key]
+		stat+=1
 
-print cpt
+print "Nombre de succes :",ach
+print "Nombre de stat :",stat
