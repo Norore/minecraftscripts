@@ -3,7 +3,7 @@
 import json
 import re
 
-data = "/home/mineternity/mineternity/stats/Norore.json"
+data = "minecraftserver/map/stats/playerName.json"
 fic = open(data, 'r')
 jsondata = fic.read()
 fic.close()
