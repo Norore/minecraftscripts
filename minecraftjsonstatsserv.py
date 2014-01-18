@@ -92,7 +92,7 @@ class MCJson:
 		return table
 
 if __name__ == "__main__":
-	json = MCJson("/home/mineternity/mineternity/stats/Norore.json", items)
+	json = MCJson(data, items)
 	table_item = json.get_item_table()
 
 	print "Item\tUsed\tCrafted\tBreak"
