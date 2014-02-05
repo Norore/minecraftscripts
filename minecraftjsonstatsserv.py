@@ -4,8 +4,8 @@ import json
 import re
 import csv
 
-data = "/home/mineternity/mineternity/stats/Norore.json"
-items = "/home/site/mineternity/stats/items_id.tsv"
+data = "server/map/stats/player.json"
+items = "items_id.tsv"
 
 class MCJson:
     def __init__(self, data, items):
